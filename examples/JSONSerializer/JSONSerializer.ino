@@ -47,7 +47,7 @@ void loop() {
   /*
    * print the array to the serial monitor once serialized with the GetSerialized method
    * es. [{"temperature":-10,"humidity":20.40,"city":"San Francisco, CA","online":false},{"temperature":10,"humidity":40.80,"city":"San Francisco, CA","online":false},{"temperature":30,"humidity":61.20,"city":"San Francisco, CA","online":false}]
-   * GetSerialized can be used also to serialize an object
+   * GetSerialized can also be used to serialize an object
    */
   Serial.println(as.GetSerialized());
   delay(2);
