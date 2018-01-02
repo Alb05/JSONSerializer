@@ -1,0 +1,19 @@
+###########################################
+# Syntax Coloring Map For JSONSerializer
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+ObjectSerializer	KEYWORD1
+ArraySerializer	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+AddElement	KEYWORD2
+AddNullElement	KEYWORD2
+GetSerialized	KEYWORD2
+Clear	KEYWORD2
